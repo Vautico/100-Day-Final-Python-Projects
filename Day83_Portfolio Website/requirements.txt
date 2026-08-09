@@ -1,0 +1,16 @@
+# Core web framework and templating
+Flask>=3.0,<4.0
+Jinja2>=3.1,<4.0
+
+# Bootstrap 5 helpers for Flask/Jinja templates
+Bootstrap-Flask>=2.4,<3.0
+
+# Contact forms and validation
+Flask-WTF>=1.2,<2.0
+email-validator>=2.2,<3.0
+
+# Local environment variables, e.g. FLASK_APP and SECRET_KEY
+python-dotenv>=1.0,<2.0
+
+# Production-capable WSGI server that also works on Windows
+waitress>=3.0,<4.0
